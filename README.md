@@ -1,37 +1,48 @@
-# MDP REPRESENTATION
+### EX NO : 02
+# <p align="center">MDP REPRESENTATION</p>
 
 ## AIM:
-Write your aim here
+To represent any one real-world problem in MDP form.
 
 ## PROBLEM STATEMENT:
 
-### Problem Description
-Write your answer here
+### Problem Description :
+Suicide Pod was launched in Switzerland. Their government is trying to normalise it. Reinforcement learning can be introduced to confirm the efficiency of the pod.
 
-### State Space
-Write your answer here
+### State Space :
+{Alive, Rest, Dead}
 
-### Sample State
-Write your answer here
+### Sample State :
+Alive
 
-### Action Space
-Write your answer here
+### Action Space :
+{Releasing right amount of nitrogen, Releasing low nitrogen}
 
-### Sample Action
-Write your answer here
+### Sample Action : 
+Releasing right amoount of nitrogen
 
-### Reward Function
-Write your answer here
+### Reward Function :
+1-right amount of nitrogen, 0-otherwise
 
-### Graphical Representation
-Write your answer here
+### Graphical Representation :
+![image](https://github.com/NITHISHKUMAR-P/mdp-representation/assets/93427017/502b4b83-f11a-4cf5-bdf8-7bfa7b6d45ff)
+
 
 ## PYTHON REPRESENTATION:
-Write your code here
-
+Developed By : **Nithishkumar P**
+</br>
+Register No. : **212221230070**
+```py
+P={0: {0: [(1.0, 0, 0.0, True)],
+       1: [(1.0, 0, 0.0, True)]},
+   1: {0: [(1.0, 0, 0.0, True)],
+       1: [(1.0, 2, 1.0, True)]},
+   2: {0: [(1.0, 2, 0.0, True)],
+       1: [(1.0, 2, 0.0, True)]}}
+```
 ## OUTPUT:
-Write your Python output here
+![image](https://github.com/NITHISHKUMAR-P/mdp-representation/assets/93427017/690df3c9-9d9e-4a32-b420-076aacb656e2)
 
 ## RESULT:
-Write your output here
+Thus, a real-world problem is represented in MDP form.
 
