@@ -7,7 +7,7 @@ To represent any one real-world problem in MDP form.
 ## PROBLEM STATEMENT:
 
 ### Problem Description :
-Suicide Pod was launched in Switzerland. Their government is trying to normalise it. Reinforcement learning can be introduced to confirm the efficiency of the pod.
+Suicide Pod was launched in Switzerland. Their government is trying to normalise it. Reinforcement learning can be introduced to confirm the efficiency of the pod.</br>
 ![image](https://github.com/Jovita08/mdp-representation/assets/94174503/84c3433d-f987-4b36-b2ce-5cda9b107ed8)
 
 ### State Space :
