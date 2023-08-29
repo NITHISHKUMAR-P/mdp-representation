@@ -8,22 +8,27 @@ To represent any one real-world problem in MDP form.
 
 ### Problem Description :
 Suicide Pod was launched in Switzerland. Their government is trying to normalise it. Reinforcement learning can be introduced to confirm the efficiency of the pod.
+![image](https://github.com/Jovita08/mdp-representation/assets/94174503/84c3433d-f987-4b36-b2ce-5cda9b107ed8)
 
 ### State Space :
-{Alive, Rest, Dead}
-
+{Alive, Rest, Dead} -> {0,1,2}
+</br></br>
 ### Sample State :
 Alive
 
 ### Action Space :
-{Releasing right amount of nitrogen, Releasing low nitrogen}
+{Releasing right amount of nitrogen, Releasing low nitrogen} -> {0,1}
 
 ### Sample Action : 
 Releasing right amoount of nitrogen
 
 ### Reward Function :
-1-right amount of nitrogen, 0-otherwise
-
+```
+R={ +1 , right amount of nitrogen
+     0 , otherwise
+  }
+```
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 ### Graphical Representation :
 ![image](https://github.com/NITHISHKUMAR-P/mdp-representation/assets/93427017/502b4b83-f11a-4cf5-bdf8-7bfa7b6d45ff)
 
@@ -45,4 +50,3 @@ P={0: {0: [(1.0, 0, 0.0, True)],
 
 ## RESULT:
 Thus, a real-world problem is represented in MDP form.
-
