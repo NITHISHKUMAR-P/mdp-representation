@@ -12,7 +12,6 @@ Suicide Pod was launched in Switzerland. Their government is trying to normalise
 
 ### State Space :
 {Alive, Rest, Dead} -> {0,1,2}
-</br></br>
 ### Sample State :
 Alive
 
@@ -28,7 +27,6 @@ R={ +1 , right amount of nitrogen
      0 , otherwise
   }
 ```
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 ### Graphical Representation :
 ![image](https://github.com/NITHISHKUMAR-P/mdp-representation/assets/93427017/502b4b83-f11a-4cf5-bdf8-7bfa7b6d45ff)
 
